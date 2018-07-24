@@ -1,0 +1,154 @@
+input,select{
+    border: 1px solid #292929bd;
+    outline: none;
+}
+
+.input--error{
+    border-color: red;
+}
+.RecipeForm{
+    text-align: center;
+}
+.RecipeForm>a {
+    text-decoration: none;
+    color: white;
+    background-color: #2185D0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.RecipeForm>a:hover {
+    background-color: #1C71B0;
+}
+.RecipeForm form {
+    margin-top: 20px;
+}
+.RecipeForm form input, 
+.RecipeForm form select  {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.RecipeForm form select{
+    display: inline-block;
+}
+.RecipeForm form label{
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.RecipeForm form textarea{
+    resize: none;
+    width: 98%;
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+
+.RecipeForm form > button:last-of-type{
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: #2185D0;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.RecipeForm form > button:last-of-type:hover {
+    background-color: #1C71B0;
+}
+.RecipeForm ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.RecipeForm ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+.RecipeForm ul button{
+    outline: none;
+    background-color: #d9534f;
+    margin-right: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.RecipeForm ul button img{
+    height: 15px;
+    width: 15px;
+}
+.RecipeForm form > button:first-of-type{
+    outline: none;
+    display: inline-block;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 15px;
+}
+@media (min-width: 992px){
+     .RecipeForm{
+         text-align: left;
+     }
+     .RecipeForm form input, .RecipeForm form select  {
+        display: block;
+        width: 40%;
+        height: 40px;
+        font-size: 18px;
+        box-sizing: border-box;
+        padding-left: 10px;
+    }
+    .RecipeForm form select{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .RecipeForm form label{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: initial;
+    }
+    .RecipeForm form textarea{
+        width: 40%;
+        height: 200px;
+        margin: 0;
+    }
+    .RecipeForm form > button:first-of-type{
+        margin-top: 0px;
+        width: initial;
+        font-size: initial;
+    }
+    .RecipeForm form > button:last-of-type{
+        width: initial;
+    }
+    
+}

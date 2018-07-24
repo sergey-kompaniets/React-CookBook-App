@@ -1,0 +1,24 @@
+.RecipeShow>a {
+    text-decoration: none;
+    color: white;
+    background-color: #2185D0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.RecipeShow>a:hover {
+    background-color: #1C71B0;
+}
+
+.RecipeShow h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.RecipeShow h3{
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 30px;
+
+}

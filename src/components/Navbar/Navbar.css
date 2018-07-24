@@ -1,0 +1,15 @@
+.Navbar{
+    grid-column: 1/13;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #262626;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.Navbar a{
+    text-decoration: none;
+    color: #262626;
+}
+

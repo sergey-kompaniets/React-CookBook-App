@@ -1,0 +1,24 @@
+.InputBar{
+    position: relative;
+}
+.InputBar input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.InputBar button{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
